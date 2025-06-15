@@ -6,25 +6,28 @@ body{
 }
 
 .head1{
-    background: url(images/resrt.jpeg);
-    background-repeat: no-repeat;
     width:100%;
     height: 550px;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(45%);
     box-shadow: 10px 10px 10px 2px lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.background{
+   background: url(images/resrt.jpeg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width:100%;
+   height: 550px;
+   filter: brightness(45%) blur(2px);
+   position: relative;
+   z-index: 0;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(210, 213, 214);
-    
+    background-color: white;
 }
 
 .logo{
@@ -38,9 +41,9 @@ img{
 
 a{
     text-decoration: none;
-    color: black;
+    color: darkblue;
     font-weight: bold;
-    text-shadow: 3px 2px rgb(158, 210, 187);
+    text-shadow: 3px 2px rgb(221, 230, 226);
 }
 
 ul{
@@ -52,21 +55,32 @@ ul{
 }
 
 .title{
-    border: solid red;
     color: white;
     font-size: 30px;
-    max-width: 500px;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centers the content */
+    z-index: 1;
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+    text-shadow: 5px 4px black;
 }
 
 .action{
-    width: 100px;
-    height: 40px;
-    background-color: aqua;
+    width: 150px;
+    height: 50px;
+    background-color: linen;
     border-radius: 20px;
-    color: white;
+    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
     align-self: center;
+    border-color: darkblue;
 }
+
 
 
