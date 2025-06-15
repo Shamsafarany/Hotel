@@ -3,6 +3,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column; 
+    box-sizing: border-box;
 }
 
 .head1{
@@ -28,6 +29,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    height: 80px;
 }
 
 .logo{
@@ -41,7 +43,7 @@ img{
 
 a{
     text-decoration: none;
-    color: darkblue;
+    color: rgb(87, 22, 120);
     font-weight: bold;
     text-shadow: 3px 2px rgb(221, 230, 226);
 }
@@ -67,20 +69,60 @@ ul{
     text-align: center;
     max-width: 500px;
     min-width: 300px;
-    text-shadow: 5px 4px black;
+    text-shadow: 5px 4px rgb(87, 22, 120);
 }
 
 .action{
     width: 150px;
     height: 50px;
-    background-color: linen;
     border-radius: 20px;
-    color: darkblue;
+    color: white;
     font-size: 18px;
     font-weight: bold;
     align-self: center;
-    border-color: darkblue;
+    border-color: white;
+    background-color: darkorchid;
 }
 
+.gallery{
+    height: 600px;
+    border-bottom: solid rgb(87, 22, 120);
+}
 
+.gallery h2{
+    color: rgb(188, 134, 34);
+    font-weight: 900;
+    text-align: center;
+    font-size: 34px;  
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.img2{
+    width: 270px;
+    height: 300px;
+}
+
+.cont{
+    border: 1px solid darkorchid;
+    height: 390px;
+    width: 270px;
+    box-shadow: 10px 10px rgb(214, 208, 208);
+}
+
+.text{
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 22, 120);
+}
 
