@@ -340,14 +340,11 @@ span{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    padding: 30px;
-    gap:10px;
-    max-width: 350px;
-    box-shadow:  0 10px 20px rgb(37, 4, 60);
+    background-color: rgb(87, 22, 120);
+    box-shadow:  0 4px 20px rgb(37, 4, 60);
+    border: none;
 }
-
-
-.sign-up p{
+.sign-up span{
     font-weight: 100;
     color: white;
 }
