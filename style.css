@@ -326,6 +326,84 @@ span{
     width: calc(100% / 2 - 20px);    
 }
 
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 859px;
+}
+.su-cont{
+    height: 550px;
+    border: solid black;
+    width: 100%; 
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(87, 22, 120);
+    box-shadow:  0 4px 20px rgb(37, 4, 60);
+    border: none;
+}
+.sign-up span{
+    font-weight: 100;
+    color: white
+}
+.sign-up h1{
+    color: rgb(211, 166, 17);
+}
+
+.cont10{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 10px;
+   padding: 5px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin-left: 0;
+}
+.name input{
+    width:90%;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.login-info{
+    width:90%;
+    padding: 7px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.login-submit{
+    width: 94%;
+    padding: 7px;
+    margin: 3px;
+    border-radius: 10px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:rgb(211, 166, 17);
+}
+
+#login-colored{
+    color: rgb(211, 166, 17);
+    margin-left: 0;
+}
+
+
+
+
+
 
 
    
